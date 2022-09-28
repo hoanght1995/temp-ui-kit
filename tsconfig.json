@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "target": "es5",                                  /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "module": "commonjs",                                /* Specify what module code is generated. */
+    "esModuleInterop": true,                             /* Emit additional JavaScript to ease support for importing CommonJS modules. This enables 'allowSyntheticDefaultImports' for type compatibility. */
+    "forceConsistentCasingInFileNames": true,            /* Ensure that casing is correct in imports. */
+    "strict": true,                                      /* Enable all strict type-checking options. */
+    "declaration": true                                  /* Generates corresponding '.d.ts' file. */,
+    "outDir": "./lib"                                    /* Redirect output structure to the directory. */,
+    "jsx": "react",
+    "skipLibCheck": true,                                 /* Skip type checking all .d.ts files. */
+    "resolveJsonModule": true,
+		"isolatedModules": true,
+    "moduleResolution": "node",
+    "baseUrl": "src",
+    "paths": {
+      "components": ["components"],
+      "constants": ["constants"],
+      "hooks": ["hooks"],
+      "utils": ["utils"],
+      "react-native-svg": ["react-native-svg-web"]
+    }
+  },
+  "include": ["src", "module.d.ts"],
+  "exclude": ["node_modules", "playground", "scripts", "lib"]
+}
