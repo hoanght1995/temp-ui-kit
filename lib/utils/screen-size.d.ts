@@ -1,6 +1,6 @@
-import { BreakPointType, SpanType } from "../constants/types";
+import { BreakPointType, SpanType } from "./types";
 export declare const getScreenSize: (viewportWidth: number) => string;
-export declare const findNearestLowerBreakpointValue: (breakpoint: BreakPointType, rules: SpanType) => import("../constants/types").SpanValue;
+export declare const findNearestLowerBreakpointValue: (breakpoint: BreakPointType, rules: SpanType) => import("./types").SpanValue;
 export declare const getStyleByBreakpointRules: (breakpoint: BreakPointType, rules: SpanType) => {
     flex: number;
     width?: undefined;

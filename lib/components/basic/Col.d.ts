@@ -1,4 +1,4 @@
-import { SpanType } from "../../constants/types";
+import { SpanType } from "../../utils/types";
 import { ReactElement } from "react";
 import { StyleProp, ViewProps, ViewStyle } from "react-native";
 export interface ColProps extends ViewProps {

@@ -1,6 +1,6 @@
 import React from "react";
-import COLORS from "../../constants/colors";
-import { BreakPointType } from "../../constants/types";
+import COLORS from "../../utils/colors";
+import { BreakPointType } from "../../utils/types";
 interface ThemeContextProps {
     screenSize?: BreakPointType;
     dimensions?: {

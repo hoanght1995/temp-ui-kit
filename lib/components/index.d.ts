@@ -11,4 +11,5 @@ export { default as Modal } from "./basic/Modal";
 export { default as BottomSheet } from "./basic/BottomSheet/index";
 export { default as SegmentTab } from "./tabs/SegmentTab";
 export { default as ScreenContainer } from "./container/ScreenContainer";
+export { default as Carousel } from "./carousel/Carousel";
 export * from "./provider/ThemeProvider";
