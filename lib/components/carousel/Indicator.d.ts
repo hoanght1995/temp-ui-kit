@@ -3,5 +3,5 @@ interface IndicatorProps {
     activeIndex: number;
     onChangeIndicator: (index: number) => void;
 }
-declare function Indicator({ indicatorQuantity, activeIndex, onChangeIndicator }: IndicatorProps): JSX.Element;
+declare function Indicator(props: IndicatorProps): JSX.Element;
 export default Indicator;
