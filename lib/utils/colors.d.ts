@@ -14,6 +14,32 @@ declare const COLORS: {
     borderPrimary: string;
     borderSecondary: string;
     borderTransparent: string;
+    dark: {
+        backgroundPrimary: string;
+        backgroundSecondary: string;
+        backgroundTertiary: string;
+        backgroundQuaternary: string;
+        contentPrimary: string;
+        contentSecondary: string;
+        contentTertiary: string;
+        textPrimary: string;
+        borderPrimary: string;
+        borderSecondary: string;
+        borderTransparent: string;
+    };
+    light: {
+        backgroundPrimary: string;
+        backgroundSecondary: string;
+        backgroundTertiary: string;
+        backgroundQuaternary: string;
+        contentPrimary: string;
+        contentSecondary: string;
+        contentTertiary: string;
+        textPrimary: string;
+        borderPrimary: string;
+        borderSecondary: string;
+        borderTransparent: string;
+    };
     purple: string;
     darkPurple60: string;
     darkPurple100: string;
@@ -37,6 +63,7 @@ declare const COLORS: {
     lightPurple960: string;
     violet1000: string;
     violet960: string;
+    violet950: string;
     violet900: string;
     violet800: string;
     violet700: string;
@@ -86,5 +113,6 @@ declare const COLORS: {
     orange100: string;
     orange50: string;
     white: string;
+    back: string;
 };
 export default COLORS;

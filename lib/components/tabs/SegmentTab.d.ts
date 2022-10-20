@@ -10,9 +10,13 @@ export interface SegmentTabProps {
     initTabIndex?: number;
     currentTab: number;
     onChangeTab?: (tabIndex: number) => void;
+    fullWidth?: boolean;
+    containerBackgroundColor?: string;
+    innerBackgroundColor?: string;
+    textColor?: string;
 }
 export interface SegmentRef {
     changeTab: (tabIndex: number) => void;
 }
-declare const _default: React.ForwardRefExoticComponent<SegmentTabProps & React.RefAttributes<SegmentRef>>;
-export default _default;
+declare const SegmentTab: React.ForwardRefExoticComponent<SegmentTabProps & React.RefAttributes<SegmentRef>>;
+export default SegmentTab;

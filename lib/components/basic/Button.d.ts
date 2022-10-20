@@ -1,9 +1,9 @@
 import { ReactElement } from "react";
-import { ViewProps, ViewStyle } from "react-native";
+import { StyleProp, TextStyle, ViewProps, ViewStyle } from "react-native";
 export interface ButtonProps extends ViewProps {
     onRef?(ref: any): void;
     children?: ReactElement;
-    style?: ViewStyle;
+    style?: StyleProp<ViewStyle>;
     title?: string;
     onPress?(): void;
     disable?: Boolean;
@@ -13,6 +13,8 @@ export interface ButtonProps extends ViewProps {
     shape?: "square" | "round";
     left?: ReactElement;
     right?: ReactElement;
+    titleStyle?: StyleProp<TextStyle>;
+    color?: string;
 }
 declare const Button: {
     (props: ButtonProps): JSX.Element;
