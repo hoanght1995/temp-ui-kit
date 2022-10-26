@@ -1,6 +1,6 @@
 {
   "name": "@remitano/remitano-ui-kit",
-  "version": "0.0.105",
+  "version": "0.0.106",
   "description": "Base components for Remitano React App",
   "dev": "./src/index.ts",
   "main": "./lib/index.js",

@@ -18,3 +18,4 @@ export declare const CONTENT_MAX_WIDTH: {
     xl: number;
     xxl: number;
 };
+export declare const DETECT_MOBILE: string[];

@@ -1,5 +1,5 @@
 import { ReactElement } from "react";
-import { ViewStyle } from "react-native";
+import { TextStyle, ViewStyle } from "react-native";
 export interface VoucherContainerProps {
     children?: ReactElement;
     backgroundColor?: string;
@@ -8,6 +8,8 @@ export interface VoucherContainerProps {
     onPress?(): void;
     style?: ViewStyle;
     disabled?: boolean;
+    btnStyle?: ViewStyle;
+    btnTitleStyle?: TextStyle;
 }
 declare const VoucherContainer: (props: VoucherContainerProps) => JSX.Element;
 export default VoucherContainer;

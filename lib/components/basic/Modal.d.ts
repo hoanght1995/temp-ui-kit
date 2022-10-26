@@ -17,6 +17,7 @@ export interface ModalProps {
     width?: number;
     animation?: boolean;
     bodyStyle?: StyleProp<any>;
+    centered?: boolean;
     showTopHandler?: boolean;
     scroll?: boolean;
     height?: number | "100%";

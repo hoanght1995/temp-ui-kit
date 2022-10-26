@@ -19,6 +19,7 @@ declare const COLORS: {
         backgroundSecondary: string;
         backgroundTertiary: string;
         backgroundQuaternary: string;
+        backgroundQuinary: string;
         contentPrimary: string;
         contentSecondary: string;
         contentTertiary: string;
@@ -32,6 +33,7 @@ declare const COLORS: {
         backgroundSecondary: string;
         backgroundTertiary: string;
         backgroundQuaternary: string;
+        backgroundQuinary: string;
         contentPrimary: string;
         contentSecondary: string;
         contentTertiary: string;
@@ -113,6 +115,6 @@ declare const COLORS: {
     orange100: string;
     orange50: string;
     white: string;
-    back: string;
+    black: string;
 };
 export default COLORS;
