@@ -6,7 +6,7 @@ export interface ButtonProps extends ViewProps {
     style?: StyleProp<ViewStyle>;
     title?: string;
     onPress?(): void;
-    disable?: Boolean;
+    disable?: boolean;
     loading?: Boolean;
     size?: "xxs" | "xs" | "sm" | "md" | "lg" | "xl";
     type?: "primary" | "light" | "text";
