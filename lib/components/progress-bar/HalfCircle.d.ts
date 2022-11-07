@@ -1,4 +1,5 @@
 import { ViewStyle } from "react-native";
+export declare const strokeColor: string;
 declare type HalfCircleType = {
     radius: number;
     percent: number;

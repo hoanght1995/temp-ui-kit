@@ -85,6 +85,7 @@ declare const COLORS: {
     gray300: string;
     gray200: string;
     gray100: string;
+    gray70: string;
     gray50: string;
     gray20: string;
     green600: string;

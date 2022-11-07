@@ -16,6 +16,8 @@ export declare type CarouselProps = {
     showIndicator?: boolean;
     /** Whether to show the control button */
     showControl?: boolean;
+    /** E2E test Id*/
+    testId?: string;
 };
 export declare type CarouselRef = {
     /** Go to specific slide */

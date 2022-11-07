@@ -10,6 +10,7 @@ export interface SegmentTabProps {
     initTabIndex?: number;
     currentTab: number;
     onChangeTab?: (tabIndex: number) => void;
+    onChangeTabEnd?(selectedTab: number): void;
     fullWidth?: boolean;
     containerBackgroundColor?: string;
     innerBackgroundColor?: string;
